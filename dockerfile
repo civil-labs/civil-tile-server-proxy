@@ -9,4 +9,4 @@ COPY nginx.conf /etc/nginx/nginx.conf
 # Create the cache directory and ensure permissions
 RUN mkdir -p /tmp/nginx_cache && chmod 777 /tmp/nginx_cache
 
-EXPOSE 80
+EXPOSE 8080
